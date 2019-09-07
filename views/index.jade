@@ -1,5 +1,17 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to my portfolio
+    .row
+        .col.s12
+            p Currently studying for a masters in Games Development at the University of Central Lancashire. 
+            p I was a finalist in the 2018 Sumo Digital Rising Star competition, with my game SphereRoll.
+
+    .row
+        each project in projects
+            .col.s12.m3
+                .card
+                    .card-image
+                        video(playsinline loop autoplay=true style='max-width: 100%; max-height: 100%')
+                            source(src=project.img type='video/mp4')
+                    .card-content.center-align
+                        p= project.name

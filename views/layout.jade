@@ -2,6 +2,23 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/css/style.css')
   body
-    block content
+        nav
+            .container
+                .row
+                    .col.m12
+                        span#site-title Matthew Lowe
+
+                        ul.right.hide-on-med-and-down
+                            li(class=(page==='index' ? 'active' : undefined))
+                                a(href='/') Intro
+                            li(class=(page==='projects' ? 'active' : undefined))
+                                a(href='/Projects') Projects
+                            li(class=(page==='cv' ? 'active' : undefined))
+                                a(href='/CV') CV
+                            li(class=(page==='contact' ? 'active' : undefined))
+                                a(href='/Contact') Projects
+    
+    .container
+        block content
