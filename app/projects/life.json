@@ -1,0 +1,10 @@
+{
+    "name": "Life",
+    "tags": ["Phaser", "JavaScript"],
+    "demo": "",
+    "play": "https://vesta.uclan.ac.uk/~mlowe4/Life/",
+    "priority": 2,
+    "desc": [
+        "For the <b>Games for the Internet</b> module we were tasked with creating a game using the <a href=\"https://phaser.io/\" target=\"_blank\">Phaser</a> game framework. The theme for the game must be time travel. My game, called Life, is based on the progressive life of a character. Each level is a different stage of life, where the goal is to reach the time machine at the end of each level."
+    ]
+}

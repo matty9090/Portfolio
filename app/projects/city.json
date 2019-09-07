@@ -1,0 +1,10 @@
+{
+    "name": "City Simulator",
+    "tags": ["SFML", "C++"],
+    "demo": "",
+    "play": "",
+    "priority": 6,
+    "desc": [
+        ""
+    ]
+}

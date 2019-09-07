@@ -7,11 +7,13 @@ block content
             p I was a finalist in the 2018 Sumo Digital Rising Star competition, with my game SphereRoll.
 
     .row
-        each project in projects
-            .col.s12.m3
-                .card
-                    .card-image
-                        video(playsinline loop autoplay=true style='max-width: 100%; max-height: 100%')
-                            source(src=project.img type='video/mp4')
-                    .card-content.center-align
-                        p= project.name
+        each column in projects
+            .col.m12.l4
+                each project in column
+                    .card
+                        .card-image
+                            video(playsinline loop autoplay=true style='width: 100%; height: 100%')
+                                source(src=project.img type='video/mp4')
+
+                        .card-content.center-align
+                            p= project.name

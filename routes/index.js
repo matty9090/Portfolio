@@ -4,14 +4,12 @@ var projects = require('../app/projects')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    var projs = projects.list();
-
-    console.log(projs);
+    var proj = new projects();
 
     res.render('index', {
         title: 'Matthew Lowe | Game Developer',
         page: 'index',
-        projects: projs
+        projects: proj.as_columns(3)
     });
 });
 
