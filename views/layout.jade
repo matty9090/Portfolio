@@ -1,16 +1,17 @@
 doctype html
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/css/style.css')
-  body
+    head
+        title= title
+        link(rel='stylesheet', href='/css/style.css')
+        
+    body
         nav
             .container
                 .row
                     .col.s12
                         span#site-title Matthew Lowe
 
-                        ul.right.hide-on-med-and-down
+                        ul.right
                             li(class=(page==='index' ? 'active' : undefined))
                                 a(href='/') Intro
                             li(class=(page==='projects' ? 'active' : undefined))
@@ -21,4 +22,5 @@ html
                                 a(href='/Contact') Projects
     
     .container
+        br
         block content

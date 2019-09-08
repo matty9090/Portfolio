@@ -1,4 +1,25 @@
 extends layout
 
 block content
-  p Projects
+    each project in projects
+        .card
+            .card-content
+                .row
+                    .col.m4
+                        video(playsinline loop autoplay=true style='width: 100%;')
+                            source(src=project.img type='video/mp4')
+                    
+                    .project-details
+                        .col.m8
+                            span#project-title= project.name
+
+                            each tag in project.tags
+                                span.badge.blue.white-text= tag
+
+                            br
+                            div#project-subtitle= project.subtitle
+                            br
+
+                            each desc in project.desc
+                                p!= desc
+                                br

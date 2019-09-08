@@ -1,5 +1,6 @@
 {
     "name": "Pathfinding Visualiser",
+    "subtitle": "",
     "tags": ["TL-Engine", "C++"],
     "demo": "",
     "play": "",

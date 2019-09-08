@@ -1,5 +1,6 @@
 {
     "name": "Frogger",
+    "subtitle": "",
     "tags": ["TL-Engine", "C++"],
     "demo": "",
     "play": "",

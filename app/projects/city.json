@@ -1,5 +1,6 @@
 {
     "name": "City Simulator",
+    "subtitle": "",
     "tags": ["SFML", "C++"],
     "demo": "",
     "play": "",
