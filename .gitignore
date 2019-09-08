@@ -86,3 +86,7 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# Dynamically generated web files
+public/css/*
+public/js/*
