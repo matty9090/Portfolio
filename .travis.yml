@@ -18,3 +18,5 @@ deploy:
   env: node-express-env
   on:
     repo: matty9090/Portfolio
+  bucket_name: AWS_BUCKET
+  bucket_path: "Portfolio"
