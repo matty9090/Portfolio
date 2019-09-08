@@ -90,3 +90,8 @@ typings/
 # Dynamically generated web files
 public/css/*
 public/js/*
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
