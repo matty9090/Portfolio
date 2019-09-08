@@ -23,6 +23,6 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', function(done) {
-    gulp.series('sass', 'scripts');
+    gulp.series('sass', 'scripts')();
     done();
 });
