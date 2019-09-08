@@ -3,7 +3,9 @@ html
     head
         title= title
         link(rel='stylesheet', href='/css/style.css')
-        
+        link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
+        script(src='/js/site.js')
+
     body
         nav
             .container
@@ -18,8 +20,8 @@ html
                                 a(href='/Projects') Projects
                             li(class=(page==='cv' ? 'active' : undefined))
                                 a(href='/CV') CV
-                            li(class=(page==='contact' ? 'active' : undefined))
-                                a(href='/Contact') Projects
+                            li(class=(page==='Contact' ? 'active' : undefined))
+                                a(href='/Contact') Contact
     
     .container
         br
