@@ -10,9 +10,9 @@ script: gulp
 
 deploy:
   provider: elasticbeanstalk
-  access_key_id: AWS_ACCESS
+  access_key_id: $AWS_ACCESS
   secret_access_key:
-    secure: AWS_SECRET
+    secure: $AWS_SECRET
   region: eu-west-2
   app: Portfolio
   env: node-express-env
