@@ -12,10 +12,13 @@ gulp.task('sass', function() {
 });
 
 gulp.task('scripts', function() {
-    return gulp.src(['./node_modules/materialize-css/dist/js/materialize.js', './app/js/site.js'])
-        .pipe(concat('site.js'))
-        .pipe(uglify())
-        .pipe(gulp.dest('public/js'));
+    return gulp.src([
+        './node_modules/materialize-css/dist/js/materialize.js',
+        './app/js/site.js'
+    ])
+    .pipe(concat('site.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('public/js'));
 });
 
 gulp.task('watch', function() {
