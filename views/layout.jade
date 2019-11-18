@@ -10,33 +10,40 @@ html
         script(src='https://platform.linkedin.com/badges/js/profile.js')
 
     body
-        nav
-            .container
-                .row
-                    .col.s12
-                        span#site-title Matthew Lowe
-                        span#linked-in
-                            a(href='https://www.linkedin.com/in/matthew-l-523090b0/')
-                                img(src='img/linkedin.png')
+        header
+            nav
+                .container
+                    .row
+                        .col.s12
+                            span#site-title Matthew Lowe
+                            span#linked-in
+                                a(href='https://www.linkedin.com/in/matthew-l-523090b0/')
+                                    img(src='img/linkedin.png')
 
-                        ul.right
-                            li(class=(page==='index' ? 'active' : undefined))
-                                a(href='/')
-                                    i.material-icons.left person
-                                    | Intro
-                            li(class=(page==='projects' ? 'active' : undefined))
-                                a(href='/Projects')
-                                    i.material-icons.left apps
-                                    | Projects
-                            li(class=(page==='cv' ? 'active' : undefined))
-                                a(href='/CV')
-                                    i.material-icons.left description
-                                    | CV
-                            li(class=(page==='Contact' ? 'active' : undefined))
-                                a(href='/Contact')
-                                    i.material-icons.left email
-                                    | Contact
+                            ul.right
+                                li(class=(page==='index' ? 'active' : undefined))
+                                    a(href='/')
+                                        i.material-icons.left person
+                                        | Intro
+                                li(class=(page==='projects' ? 'active' : undefined))
+                                    a(href='/Projects')
+                                        i.material-icons.left apps
+                                        | Projects
+                                li(class=(page==='cv' ? 'active' : undefined))
+                                    a(href='/CV')
+                                        i.material-icons.left description
+                                        | CV
+                                li(class=(page==='Contact' ? 'active' : undefined))
+                                    a(href='/Contact')
+                                        i.material-icons.left email
+                                        | Contact
     
-    .container
-        br
-        block content
+    main
+        .container
+            br
+            block content
+
+    footer
+        .container
+            .footer-copyright
+                p Copyright &copy; Matthew Lowe 2019
