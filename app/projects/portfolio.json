@@ -1,0 +1,14 @@
+{
+    "name": "Portfolio",
+    "subtitle": "My portfolio",
+    "tags": ["Node.js", "Express", "Amazon AWS", "Travis CI", "Materialise CSS", "Gulp"],
+    "demo": "",
+    "play": "http://mlowe.net",
+    "src": "https://github.com/matty9090/Portfolio",
+    "priority": 3,
+    "icon": "png",
+    "desc": [
+        "I decided to experiment with devops and new web technologies, therefore, I decided to rewrite my portfolio using <a href=\"https://nodejs.org/\" target=\"_blank\">Node.js</a>/<a href=\"https://expressjs.com/\" target=\"_blank\">Express</a> and find a good devops workflow. Using <a href=\"https://travis-ci.com/\" target=\"_blank\">Travis CI</a> for continuous integration, when I push to master it deploys to <a href=\"https://aws.amazon.com/\" target=\"_blank\">Amazon AWS</a> and the new changes are live in minutes.",
+        "Whilst this probably wasn't worth the time and effort to speed up the overall development of the portfolio for the amount of time I work on it, it was definitely a good learning process which can be reapplied for any future web applications."
+    ]
+}
