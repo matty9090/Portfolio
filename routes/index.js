@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
     res.render('index', {
         title: 'Matthew Lowe | Game Developer',
         page: 'index',
-        projects: proj.as_columns(3)
+        projects: proj.as_columns(3, 9)
     });
 });
 

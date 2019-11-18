@@ -20,13 +20,13 @@ class Projects {
         });
     }
 
-    as_columns(columns) {
+    as_columns(columns, max) {
         var cols = [];
 
         for(let i = 0; i < columns; ++i) {
             var col = [];
 
-            for(let j = i; j < this.projects.length; j += columns)
+            for(let j = i; j < max && j < this.projects.length; j += columns)
                 col.push(this.projects[j]);
             
             if(col.length > 0)
