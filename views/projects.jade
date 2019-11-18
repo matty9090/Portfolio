@@ -18,6 +18,14 @@ block content
 
                             br
                             div#project-subtitle= project.subtitle
+
+                            if project.demo
+                                a.waves-effect.btn-small.waves-light(href=project.demo, target="_blank") Demo
+
+                            if project.play
+                                a.waves-effect.btn-small.waves-light(href=project.play, target="_blank") Play
+
+                            br
                             br
 
                             each desc in project.desc
