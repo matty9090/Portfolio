@@ -11,6 +11,12 @@ gulp.task('sass', function() {
         .pipe(gulp.dest('public/css'));
 });
 
+gulp.task('sass-dev', function() {
+    return gulp.src('./app/sass/style.sass')
+        .pipe(sass())
+        .pipe(gulp.dest('public/css'));
+});
+
 gulp.task('scripts', function() {
     return gulp.src([
         './node_modules/materialize-css/dist/js/materialize.js',

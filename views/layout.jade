@@ -21,13 +21,21 @@ html
 
                         ul.right
                             li(class=(page==='index' ? 'active' : undefined))
-                                a(href='/') Intro
+                                a(href='/')
+                                    i.material-icons.left person
+                                    | Intro
                             li(class=(page==='projects' ? 'active' : undefined))
-                                a(href='/Projects') Projects
+                                a(href='/Projects')
+                                    i.material-icons.left description
+                                    | Projects
                             li(class=(page==='cv' ? 'active' : undefined))
-                                a(href='/CV') CV
+                                a(href='/CV')
+                                    i.material-icons.left assignment
+                                    | CV
                             li(class=(page==='Contact' ? 'active' : undefined))
-                                a(href='/Contact') Contact
+                                a(href='/Contact')
+                                    i.material-icons.left email
+                                    | Contact
     
     .container
         br
