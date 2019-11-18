@@ -1,11 +1,11 @@
 {
     "name": "Hover Racing",
-    "subtitle": "",
+    "subtitle": "Uni Assignment - First year (100%)",
     "tags": ["TL-Engine", "C++"],
     "demo": "",
     "play": "",
     "priority": 4,
     "desc": [
-        ""
+        " <a href=\"img/racingeditor.png\" target=\"_blank\"><img src=\"img/racingeditor.png\" height=\"200\" class=\"right\" /></a>Our 3rd games assignment was to create a hover car racing game. The hover car can drift and collide with other objects (including AI). You pass various checkpoints each lap (in order). There are multiple AI hover cars which follow waypoints around the circuit. The map was made using a <a href=\"img/racingeditor.png\" target=\"_blank\">simple map editor</a> I wrote."
     ]
 }

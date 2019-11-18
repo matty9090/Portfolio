@@ -4,6 +4,7 @@
     "tags": ["DirectX", "C++"],
     "demo": "https://www.youtube.com/watch?v=kGFQbOp_kc0",
     "play": "",
+    "src": "https://github.com/matty9090/GalacticEngine",
     "priority": 1,
     "desc": [
         "My 3rd year project was creating procedurally generated planets. The features include: LOD (level of detail) Terrain, Water, Clouds, Biomes and an Atmosphere. The LOD terrain is based off CLOD (continuous level of detail) and uses six <a href=\"https://en.wikipedia.org/wiki/Quadtree\" target=\"_blank\">quadtrees</a> to form a cube. This is then mapped to a sphere.",

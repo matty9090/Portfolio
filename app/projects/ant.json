@@ -1,0 +1,13 @@
+{
+    "name": "Langtons Ant",
+    "subtitle": "Personal Project",
+    "tags": ["C++"],
+    "demo": "",
+    "play": "",
+    "src": "https://github.com/matty9090/LangtonsAnt",
+    "priority": 7,
+    "icon": "bmp",
+    "desc": [
+        "A <a href=\"https://en.wikipedia.org/wiki/Langton%27s_ant\" target=\"_blank\">Langtons Ant</a> simulation."
+    ]
+}

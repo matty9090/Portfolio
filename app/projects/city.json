@@ -1,11 +1,12 @@
 {
     "name": "City Simulator",
-    "subtitle": "",
+    "subtitle": "Personal Project",
     "tags": ["SFML", "C++"],
     "demo": "",
     "play": "",
+    "src": "https://github.com/matty9090/CitySim/",
     "priority": 6,
     "desc": [
-        ""
+        "A simple city simulator which grows automatically, with A* pathfinding."
     ]
 }

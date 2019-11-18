@@ -1,11 +1,12 @@
 {
     "name": "Pathfinding Visualiser",
-    "subtitle": "",
+    "subtitle": "Uni Assignment - Second year (100%)",
     "tags": ["TL-Engine", "C++"],
-    "demo": "",
+    "demo": "https://www.youtube.com/watch?v=topk_QKGn6A",
     "play": "",
     "priority": 4,
     "desc": [
-        ""
+        "The assignment for the 2nd year Games Dev 1 module was to implement the A* search algorithm and visualise it graphically.",
+        "After already implementing A* in my personal project I could reuse the code and focus on getting a visualisation working where it shows the open and closed list. The most challenging, but fun part was making the bezier curves."
     ]
 }

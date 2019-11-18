@@ -10,7 +10,9 @@ class Projects {
         files.forEach(file => {
             var fname = file.split('.')[0];
             var len = this.projects.push(JSON.parse(fs.readFileSync(dir + '/' + file)));
-            this.projects[len - 1].img = `img/${fname}.mp4`;
+            var p = this.projects[len - 1];
+            var format = p.icon ? p.icon : 'mp4';
+            this.projects[len - 1].img = `img/${fname}.${format}`;
         });
 
         this.projects.sort(function(a, b) {

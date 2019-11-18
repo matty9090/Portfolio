@@ -6,9 +6,12 @@ block content
             .card-content
                 .row
                     .col.m4
-                        video(playsinline loop autoplay=true style='width: 100%;')
-                            source(src=project.img type='video/mp4')
-                    
+                        unless project.icon
+                            video(playsinline loop autoplay=true style='width: 100%;')
+                                source(src=project.img type='video/mp4')
+                        else
+                            img(src=project.img style="width: 100%")
+                        
                     .project-details
                         .col.m8
                             span#project-title= project.name
@@ -20,12 +23,20 @@ block content
                             div#project-subtitle= project.subtitle
 
                             if project.demo
-                                a.waves-effect.btn-small.waves-light(href=project.demo, target="_blank") Demo
+                                a.waves-effect.btn-small.waves-light(href=project.demo target="_blank") Demo
+                                | 
 
                             if project.play
-                                a.waves-effect.btn-small.waves-light(href=project.play, target="_blank") Play
+                                a.waves-effect.btn-small.waves-light(href=project.play target="_blank") Play
+                                | 
 
-                            br
+                            if project.src
+                                a.waves-effect.btn-small.waves-light(href=project.src target="_blank") Source
+                                | 
+
+                            if project.demo || project.play || project.src
+                                br
+
                             br
 
                             each desc in project.desc

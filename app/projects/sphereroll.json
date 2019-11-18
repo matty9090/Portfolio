@@ -3,9 +3,10 @@
     "subtitle": "Sumo Digital Rising Star game 2018",
     "tags": ["Unity", "C#"],
     "demo": "",
-    "play": "",
+    "play": "https://matty9.itch.io/sphereroll",
     "priority": 2,
     "desc": [
-        ""
+        "The <a href=\"http://gradsingames.com/game-dev-challenges/rising-star/\" target=\"_blank\">Sumo Digital Rising Star competition</a>, run by <a href=\"http://gradsingames.com/\" target=\"_blank\">Grads in Games</a>, is an annual competition which features different areas of games development. I entered the Rising Star Code, which consists of three stages: The Skills Assessment, The Dev Project and The Interview.",
+        "My game, <a href=\"https://matty9.itch.io/sphereroll\" target=\"_blank\">SphereRoll</a> was lucky enough to reach the final stage of the competition. The game was part of The Dev Project stage, where we had to make a game using the <a href=\"https://unity3d.com/\" target=\"_blank\">Unity Engine</a>."
     ]
 }

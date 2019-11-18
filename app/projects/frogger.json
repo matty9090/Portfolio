@@ -1,11 +1,11 @@
 {
     "name": "Frogger",
-    "subtitle": "",
+    "subtitle": "Uni Assignment - First year (98%)",
     "tags": ["TL-Engine", "C++"],
     "demo": "",
     "play": "",
     "priority": 5,
     "desc": [
-        ""
+        "The 2nd assignment was to make a 3D version of the classic <a href=\"https://en.wikipedia.org/wiki/Frogger\" target=\"_blank\">Frogger</a> game. My version was endless however, so the aim was to beat your highscore. Other features included a <a href=\"img/frogger.png\" target=\"_blank\">Game Menu</a>, moving floating tires which the frog jumps on to cross a lake, and camera animations. <a href=\"img/frogger.png\" target=\"_blank\"><img style=\"float: right;\" src=\"img/frogger.png\" width=\"180\" /></a>"
     ]
 }

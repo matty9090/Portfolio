@@ -4,8 +4,10 @@
     "tags": ["Unity", "C#"],
     "demo": "",
     "play": "",
+    "src": "https://github.com/matty9090/Ghosts",
     "priority": 3,
     "desc": [
-        ""
+        "For the professional skills module I worked in a team with one other member. We could make whatever game we liked so we chose to create a Worms-style game called Ghosts.",
+        "We used <a href=\"https://unity3d.com/\" target=\"_blank\">Unity</a> to create the game. I implemented random terrain generation using 2D perlin noise, and destructive terrain using voxels."
     ]
 }
