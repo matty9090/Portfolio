@@ -1,7 +1,7 @@
 {
     "name": "Procedural Universe",
     "subtitle": "Masters Project - In Progress",
-    "tags": ["DirectX", "C++"],
+    "tags": ["DirectX", "C++", "CMake"],
     "demo": "https://www.youtube.com/watch?v=Zf8qHWhzWqM",
     "play": "",
     "src": "https://github.com/matty9090/NBody-Simulator",
