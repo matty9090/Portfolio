@@ -1,0 +1,12 @@
+{
+    "name": "Piano Booking Manager",
+    "subtitle": "Professional Work",
+    "tags": ["PHP", "MySQL"],
+    "demo": "",
+    "play": "",
+    "src": "",
+    "priority": 6,
+    "desc": [
+        "<ul class=\"list\"><li>Login form</li><li>Lesson attended screen</li><li>Manage pupils (new/edit)</li><li>Calculate earnings for a specific timeframe</li></ul>"
+    ]
+}
