@@ -1,7 +1,7 @@
 {
     "name": "Procedural Planet Generation",
     "subtitle": "3rd Year Project (84%)",
-    "tags": ["DirectX", "C++"],
+    "tags": ["FastNoise", "DirectX", "C++"],
     "demo": "https://www.youtube.com/watch?v=kGFQbOp_kc0",
     "play": "",
     "src": "https://github.com/matty9090/GalacticEngine",
