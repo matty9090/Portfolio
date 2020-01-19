@@ -1,0 +1,13 @@
+{
+    "name": "Dawn of Civilisation",
+    "subtitle": "Personal Team Project",
+    "tags": ["Blueprints", "C++", "Unreal"],
+    "demo": "",
+    "play": "",
+    "src": "https://github.com/matty9090/DawnOfCivilisation",
+    "priority": 1.6,
+    "desc": [
+        "Over summer a friend and I decided to play around with Unreal. We worked on a game where you can control a civilisation with procedurally generated worlds.",
+        "Retrospectively, as this was our first time developing using Unreal, the code was not very maintainable and was very improvised. However, we implemented various features including custom navigation for use on a spherical world and a nice, smooth arcball rotation."
+    ]
+}
