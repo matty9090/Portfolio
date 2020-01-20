@@ -7,7 +7,7 @@
     "src": "",
     "priority": 1.5,
     "desc": [
-        "This project is a multiplayer medieval real time strategy game. We're using C++ for most of the project and Unreals built in networking for multiplayer. The goal is for players to host their own sever (listen server) to play with or against their friends.",
+        "This project is a multiplayer medieval real time strategy game. We're using C++ for most of the project and Unreals built in networking for multiplayer. The goal is for players to host their own server (listen server) to play with or against their friends.",
         "So far we've implemented city building mechanics, resource harvesting, troop recruitment and fighting. All of this works over multiplayer, with a menu screen allowing players to host a server. We have weekly playtests to ensure multiplayer is bug free and to decide what to work on next."
     ]
 }
