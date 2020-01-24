@@ -14,7 +14,7 @@ router.post('/zombie/submit', function(req, res) {
         }
         else
         {
-            if (!req.body.name || req.body.name.length < 3 || !req.body.score)
+            if (!req.body.name || req.body.name.trim().length < 3 || !req.body.score)
             {
                 response.success = false;
                 response.message = "Error";
