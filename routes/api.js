@@ -5,7 +5,7 @@ var router = express.Router();
 var response = { "success" : true, "message": "" };
 
 router.post('/zombie/submit', function(req, res) {
-    var db = new sqlite.Database('./bin/zombie.db', sqlite.OPEN_READWRITE, (err) => {
+    var db = new sqlite.Database('./bin/Zombie.db', sqlite.OPEN_READWRITE, (err) => {
         if (err)
         {
             response.success = false;
@@ -45,7 +45,7 @@ router.post('/zombie/submit', function(req, res) {
 });
 
 router.post('/zombie/leaderboard', function(req, res) {
-    var db = new sqlite.Database('./bin/zombie.db', sqlite.OPEN_READONLY, (err) => {
+    var db = new sqlite.Database('./bin/Zombie.db', sqlite.OPEN_READONLY, (err) => {
         if (err)
         {
             response.success = false;
