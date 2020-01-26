@@ -74,7 +74,7 @@ router.post('/zombie/leaderboard', function(req, res) {
 });
 
 router.get('/zombie/download', function(req, res) {
-    res.download('./bin/zombie.db');
+    res.download('./bin/Zombie.db');
 });
 
 module.exports = router;
