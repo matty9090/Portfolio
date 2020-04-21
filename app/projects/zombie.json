@@ -1,0 +1,13 @@
+{
+    "name": "Zombie Outbreak",
+    "subtitle": "Search For A Star game 2020",
+    "tags": ["Unity", "C#"],
+    "demo": "",
+    "play": "https://matty9.itch.io/zombie-outbreak",
+    "src": "https://github.com/matty9090/Zombie",
+    "priority": 1.8,
+    "desc": [
+        "The <a href=\"https://gradsingames.com/game-dev-challenges/search-for-a-star/\" target=\"_blank\">Search For A Star competition</a>, run by <a href=\"http://gradsingames.com/\" target=\"_blank\">Grads in Games</a>, is an annual competition which features different areas of games development. The competition consists of three stages: The Skills Assessment, The Dev Project and The Interview.",
+        "The game was part of The Dev Project stage, where we had to make a game using the <a href=\"https://unity3d.com/\" target=\"_blank\">Unity Engine</a>. My game, Zombie Outbreak is a Zombie Survival game where you have to harvest resources and build a base to survive the night. You can view all of the submissions <a href=\"https://itch.io/jam/sfasx-games-programming\" target=\"_blank\">here</a>."
+    ]
+}
