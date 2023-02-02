@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - 10
+  - 16
 
 before_script:
   - npm install -g gulp-cli
@@ -14,7 +14,7 @@ deploy:
   secret_access_key: $AWS_SECRET
   region: eu-west-2
   app: Portfolio
-  env: node-express-env
+  env: Portfolio2-env
   on:
     repo: matty9090/Portfolio
     branch: master
